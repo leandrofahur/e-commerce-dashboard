@@ -1,0 +1,117 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Smartphone X",
+      "description": "Latest model with advanced features and 5G capability",
+      "price": 999.99,
+      "category": "Electronics",
+      "imageUrl": "https://example.com/smartphone-x.jpg",
+      "stock": 50
+    },
+    {
+      "id": 2,
+      "name": "Leather Wallet",
+      "description": "Handcrafted genuine leather wallet with RFID protection",
+      "price": 59.99,
+      "category": "Accessories",
+      "imageUrl": "https://example.com/leather-wallet.jpg",
+      "stock": 100
+    },
+    {
+      "id": 3,
+      "name": "Running Shoes",
+      "description": "Lightweight and comfortable shoes for long-distance running",
+      "price": 129.99,
+      "category": "Sports",
+      "imageUrl": "https://example.com/running-shoes.jpg",
+      "stock": 75
+    },
+    {
+      "id": 4,
+      "name": "Coffee Maker",
+      "description": "Programmable coffee maker with built-in grinder",
+      "price": 149.99,
+      "category": "Home & Kitchen",
+      "imageUrl": "https://example.com/coffee-maker.jpg",
+      "stock": 30
+    },
+    {
+      "id": 5,
+      "name": "Wireless Headphones",
+      "description": "Noise-cancelling headphones with 30-hour battery life",
+      "price": 199.99,
+      "category": "Electronics",
+      "imageUrl": "https://example.com/wireless-headphones.jpg",
+      "stock": 60
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "email": "john@example.com",
+      "firstName": "John",
+      "lastName": "Doe",
+      "address": "123 Main St, Anytown, USA 12345"
+    },
+    {
+      "id": 2,
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "address": "456 Elm St, Othertown, USA 67890"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "items": [
+        { "productId": 1, "quantity": 1 },
+        { "productId": 3, "quantity": 2 }
+      ],
+      "totalAmount": 1259.97,
+      "status": "Shipped",
+      "orderDate": "2023-08-15T10:30:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "items": [
+        { "productId": 2, "quantity": 1 },
+        { "productId": 5, "quantity": 1 }
+      ],
+      "totalAmount": 259.98,
+      "status": "Processing",
+      "orderDate": "2023-08-16T14:45:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "productId": 1,
+      "userId": 2,
+      "rating": 5,
+      "comment": "Great phone! The camera quality is amazing.",
+      "date": "2023-08-10T09:00:00Z"
+    },
+    {
+      "id": 2,
+      "productId": 3,
+      "userId": 1,
+      "rating": 4,
+      "comment": "Comfortable shoes, but a bit pricey.",
+      "date": "2023-08-12T16:30:00Z"
+    },
+    {
+      "id": 3,
+      "productId": 5,
+      "userId": 2,
+      "rating": 5,
+      "comment": "Excellent sound quality and battery life.",
+      "date": "2023-08-14T11:15:00Z"
+    }
+  ]
+}
