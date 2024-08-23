@@ -4,7 +4,7 @@
 
 This project is a modern e-commerce dashboard built with React, TypeScript, and various other technologies. It provides a comprehensive interface for managing products, viewing orders, and handling customer interactions in an e-commerce setting.
 
-MEDIUM link (here)[]
+MEDIUM link (here)[https://medium.com/@tech-adventurer/mastering-react-a-senior-developer-s-best-practices-framework-%EF%B8%8F-6ea5a41292ae?sk=64e5dbb64c2c2c70a7e23ec7677296cb]
 
 ## Features
 
